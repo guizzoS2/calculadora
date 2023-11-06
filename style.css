@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg_img {
+    background-image: url(Nazaré_Confusa.jpg);
+    height: 100vh;
+}
+
+.fade {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh;
+} 
+
+.calculadora {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+table button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(255, 99, 71, .5);
+    border: none;
+    color: white;
+    
+}
+
+table button:hover {
+    background-color: rgba(255, 99, 71, .8);
+
+}
+
+#resultado {
+    width: 190px;
+    height: 30px;
+    margin: 5px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    align-self: center;
+
+
+}
+
+.meuNome {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 7px;
+}
